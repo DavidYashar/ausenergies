@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+} 
+
+@media screen and (max-width: 868px) {
+  .App {
+    max-width: fit-content;
+    flex-direction: column;
+  }
+}
+
